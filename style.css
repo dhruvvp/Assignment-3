@@ -1,0 +1,150 @@
+/* Reset styles */
+
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* Body styles */
+body {
+font-family: 'Arial', sans-serif;
+background-color: #f2f2f2;
+}
+
+/* Header styles */
+header {
+background-color: #fff;
+padding: 20px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+font-size: 36px;
+margin-bottom: 10px;
+color: blueviolet;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+}
+
+nav li {
+margin-right: 20px;
+}
+
+nav a {
+text-decoration: none;
+color: #333;
+}
+
+nav a:hover {
+color: #f00;
+}
+
+/* Main styles */
+main {
+max-width: 960px;
+margin: 0 auto;
+padding: 40px 20px;
+}
+
+#intro img {
+max-width: 100%;
+margin-top: 20px;
+}
+
+#facts ul {
+list-style: disc;
+margin-left: 20px;
+}
+
+#nutrition table {
+margin-top: 20px;
+border-collapse: collapse;
+width: 100%;
+}
+
+#nutrition th,
+#nutrition td {
+padding: 10px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+}
+
+#nutrition th {
+background-color: #f2f2f2;
+}
+
+/* Footer styles */
+footer {
+background-color: #333;
+color: #fff;
+padding: 20px;
+display: flex;
+flex-wrap: wrap;
+}
+
+#logo {
+flex: 1;
+max-width: 200px;
+}
+
+#logo img {
+max-width: 100%;
+}
+
+#logo h3 {
+font-size: 24px;
+margin-top: 10px;
+}
+
+#company-info {
+flex: 2;
+margin-top: 20px;
+  padding-left: 3%;
+}
+
+#contact-form {
+flex: 1;
+margin-top: 20px;
+}
+
+#contact-form label,
+#contact-form input,
+#contact-form textarea {
+display: block;
+margin-bottom: 10px;
+}
+
+#contact-form input,
+#contact-form textarea {
+width: 100%;
+padding: 10px;
+border: none;
+background-color: #f2f2f2;
+}
+
+#contact-form input[type="submit"] {
+background-color: blueviolet;
+color: #fff;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+#contact-form input[type="submit"]:hover {
+background-color: #900;
+}
+
+    
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:black;
+   color: white;
+   text-align: center;
+   letter-spacing: .2rem;
+   font-kerning: normal;
+}
